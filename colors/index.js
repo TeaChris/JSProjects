@@ -9,5 +9,6 @@ btn.addEventListener('click', () => {
     // change the body color in the dom
     document.body.style.backgroundColor = colors[getRandomColor];
     // change the span color in the dom
-    color.textContent = colors[getRandomColor];
-})
+    // you 👇 can use "textContent istead of "innerText"
+    color.innerText = colors[getRandomColor];
+}) 
