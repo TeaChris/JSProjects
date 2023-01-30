@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #ff7b02;
+    --color-primary-variant: #e5a55d;
+    --color-bg-1: #140021;
+    --color-bg-2: #1e0032;
+    --color-bg-3: #25003e;
+    --color-bg-4: #36005a;
+    --color-light: #d0b8e0;
+    --color-white: hsl(0,0%, 90%);
+
+    --container-width-lg: 88%;
+    --container-width-md: 92%;
+
+    --transition: all 400ms ease;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-bg-3);
+    color: var(--color-light);
+    line-height: 1.7;
+}
+
+.container{
+    width: var(--container-width-lg);
+    margin: 5rem auto;
+    max-width: 2160px;
+}
+
+img{
+   width: 6rem;
+   aspect-ratio: 1/1;
+   object-fit: cover;
+   border-radius: 50%;
+}
+
+.card{
+    width: 20rem;
+    height: 32rem;
+    background: var(--color-bg-2);
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img{
+    margin-top: 0.65rem;
+}
+
+.profile h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.profile p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.profile button{
+    margin-top: 0.75rem;
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.2rem 0.2rem;
+    color: var(--color-bg-4);
+    border-radius: 0.55rem;
+    background: var(--color-primary);
+}
+
+.skills{
+    margin: 0.75rem 0 0 1.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills h4{
+    font-size: 1.2rem;
+}
+
+.skills .icons{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+
+.skills button{
+    margin-top: 0.45rem;
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.2rem 0.2rem;
+    color: var(--color-bg-4);
+    border-radius: 0.55rem;
+    background: var(--color-primary);
+}
+
+.contact{
+    margin: 1rem 0 0 1.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h4{
+    font-size: 1.2rem;
+}
+
+.contact i{
+    color: var(--color-primary);
+    font-size: 1.2rem;
+}
+
+.contact span{
+    font-size: 0.90rem;
+}
+
+.mail span{
+    font-size: 0.75rem;
+}
